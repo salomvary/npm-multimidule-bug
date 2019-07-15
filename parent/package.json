@@ -1,0 +1,17 @@
+{
+  "name": "parent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child-1-1": "file:../children/child-1-1",
+    "child-1-2": "file:../children/child-1-2",
+    "child-2": "file:../children/child-2"
+  }
+}
